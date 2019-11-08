@@ -1,0 +1,42 @@
+dn: dc=jorge,dc=cat
+dc: jorge
+description: organizacio associativa jorge
+objectClass: dcObject
+objectClass: organization
+o: jorge.cat
+
+dn: ou=socis,dc=jorge,dc=cat
+ou: socis
+description: orgnizacio de socis
+objectclass: organizationalunit
+
+dn: ldcat=111,ou=socis,dc=jorge,dc=cat
+objectclass: indepeOrgPerson
+cn: Pau Pou
+sn: Pou
+description: Watch out for this guy
+ldcat: 111
+sardanes: TRUE
+lema: mi lemqa es mi lema
+twitter: @paupou
+
+dn: ldcat=222,ou=socis,dc=jorge,dc=cat
+objectclass: indepeOrgPerson
+cn: Pere Pou
+sn: Pou
+description: Watch out for this guy
+ldcat: 222
+sardanes: FALSE
+lema: mi lemqa es tu lema
+twitter: @perepou
+
+dn: ldcat=333,ou=socis,dc=jorge,dc=cat
+objectclass: indepeOrgPerson
+cn: Anita Pou
+sn: Pou
+description: Watch out for this girl
+foto: ///tmp/file.jpeg
+ldcat: 333
+sardanes: TRUE
+
+

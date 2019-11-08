@@ -1,0 +1,12 @@
+dn: ldcat=111,ou=socis,dc=jorge,dc=cat
+changetype: add
+objectclass: marchenaAccount
+delictes: hola adios, uno mas
+anysComdemna: 2
+galeres: TRUE
+
+dn: ldcat=333,ou=socis,dc=jorge,dc=cat
+changetype: add
+objectclass: marchenaAccount
+delictes: hola adios, uno mas, y otro
+galeres: FALSE
