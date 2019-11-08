@@ -1,10 +1,8 @@
 # provaldap
 
-
-
 Imagen docker con servidor ldap dominio `dc=jorge,dc=cat` 
 
-
+esquemas extra marchena.schema, indepes.schema
 
 ## Estructura
 
@@ -16,8 +14,6 @@ raiz  jorge.cat  organizacion socios con e socios con dn `ldcat=111,ou=socis,dc=
 docker run --name ldapserver -h ldapserver -d jorgepastorr/provaldap
 ```
 
-
-
 ## extra
 
 ```bash
@@ -25,5 +21,3 @@ ldapadd -x -D cn=Manager,dc=jorge,dc=cat -w secret -f mod.ldif
 ```
 
 no funciona conflicto de objeto
-
-
